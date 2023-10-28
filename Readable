@@ -1,4 +1,5 @@
-n = 6
+n = 15 #in
+s = 0
 print("Initialnum:",n)
 while n != 1:
     if (n % 2) == 0:
@@ -9,5 +10,6 @@ while n != 1:
         print("Odd")
         n = (n*3)+1
         print("3n+1 =",n)
+    s = s+1
     print("n =",n)
-print("terminated")
+print("terminated in",s,"steps")
