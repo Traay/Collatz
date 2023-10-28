@@ -1,0 +1,13 @@
+n = 6
+print("Initialnum:",n)
+while n != 1:
+    if (n % 2) == 0:
+        print("Even")
+        n = n/2
+        print("n/2 =",n)
+    else:
+        print("Odd")
+        n = (n*3)+1
+        print("3n+1 =",n)
+    print("n =",n)
+print("terminated")
